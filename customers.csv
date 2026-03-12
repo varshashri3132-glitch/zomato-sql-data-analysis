@@ -1,0 +1,31 @@
+Customers table
+Customer_id (primary key)
+Customer_name
+Reg_date
+
+
+Restaurant_id(Primary key)
+Restaurant_name
+City
+Opening_hours
+
+
+Rider_id(Primary key)
+Rider_name
+Reg_date
+
+
+Delivery_id(Primary key)
+Order_id(Foreign key - Orders)
+Delivery_status
+Delivery_time
+Rider_id (Foreign key - Riders)
+
+Order_id(Primary key)
+Customer_id(Foreign key - customers)
+Restaurant_id(Foreign key - Restaurants)
+Order_item
+Order_date
+Order_time
+Order_status
+Total_amount
