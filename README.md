@@ -1,5 +1,3 @@
-# Zomato
-
 
 # Zomato Data Analysis Using SQL
 
